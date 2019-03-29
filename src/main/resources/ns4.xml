@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queues>
+	<launchers>
+		<launcher>
+			<!-- 提供spring支持的插件 -->
+			<class name="com.creditease.ns.framework.spring.GenSpringPlugin"
+				method="startUp" />
+		</launcher>
+	</launchers>
+	<inqueues>
+		<queue>
+			<!-- 监听的队列名称 -->
+			<name>IdGen</name>
+			<!-- 缓冲队列大小 -->
+			<buffersize>100</buffersize>
+			<!-- 线程数 -->
+			<handlersize>20</handlersize>
+			<!--业务类 -->
+			<serviceClass>com.creditease.ns4.gear.idgen.action.IdGenAction</serviceClass>
+		</queue>
+	</inqueues>
+</queues>

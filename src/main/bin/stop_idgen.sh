@@ -1,0 +1,1 @@
+ps -ef | grep ns4_gear_idgen | grep -v grep | awk '{print$2}' | xargs kill
