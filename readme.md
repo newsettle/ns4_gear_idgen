@@ -1,4 +1,7 @@
- #### 2018-11-12
+官方文档请点击
+（https://github.com/newsettle/ns4_gear_idgen/blob/master/docs/ns4_gear_idgen_v1.0.docx）
+
+#### 2018-11-12
  ## ID生成器 版本1.0
  #### 1. 配置 -- ID生成器数据库定制化配置 
         
